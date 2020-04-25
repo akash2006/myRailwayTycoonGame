@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="matter.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="p5.sound.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCZZSCDZPqRhlovGebfGuyrpHs29pEsfNY",
+        authDomain: "synchronous-ball-cb9bc.firebaseapp.com",
+        databaseURL: "https://synchronous-ball-cb9bc.firebaseio.com",
+        projectId: "synchronous-ball-cb9bc",
+        storageBucket: "synchronous-ball-cb9bc.appspot.com",
+        messagingSenderId: "1001196797419",
+        appId: "1:1001196797419:web:825267afac0bc63cedadae"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="link.js"></script>
+    <script src="loadUnloadButton.js"></script>
+    <script src="engine.js"></script>
+    <script src="carriage.js"></script>
+    <script src="link.js"></script>
+    <script src="track.js"></script>
+    <script src="signal.js"></script>
+    <script src="platform.js"></script>
+    <script src="fence.js"></script>
+    <script src="level.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <div id='canvascontainer'></div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
